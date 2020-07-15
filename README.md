@@ -52,6 +52,7 @@ Example:
 `/urbandictionary?term=slap`
 
 Result:
+*WARNING: The results returned from UD CAN contain offensive or vulgar language.  Please use at your own risk*
 
 ```
 Searching Urban Dictionary for 'slap'
