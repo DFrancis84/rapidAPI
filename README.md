@@ -8,7 +8,7 @@ _You will need to visit https://rapidapi.com/ to get your api key that you will 
 ---
 
 
-1. Covid19
+**1. Covid19**
 ## This collection accesses data from John Hopkins based on the type of cases you are researching.  (Confirmmed, Recovered or Death).
 
 ```
@@ -35,7 +35,7 @@ On 07-14-2020; US declared 3431574 total CONFIRMED cases of Covid-19
 
 ---
 
-2. Urban Dictionary
+**2. Urban Dictionary**
 ## This collection accesses the Urban Dictionary, and returns their definition for the term passed through.
 
 ```
@@ -52,7 +52,8 @@ Example:
 `/urbandictionary?term=slap`
 
 Result:
-*WARNING: The results returned from UD CAN contain offensive or vulgar language.  Please use at your own risk*
+
+**WARNING: The results returned from UD CAN contain offensive or vulgar language.  Please use at your own risk**
 
 ```
 Searching Urban Dictionary for 'slap'
