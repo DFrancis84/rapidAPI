@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/DFrancis84/rapidAPI/config"
 	dictionarytypes "github.com/DFrancis84/rapidAPI/internal/urbanDictionary/types"
 )
 
@@ -23,7 +22,7 @@ func New() *API {
 	return &API{Client: client}
 }
 
-func (api *API) GetDefinition(term string, configs *config.APIConfigs) {
+func (api *API) GetDefinition(term string, apiKey string) {
 	result := dictionarytypes.Result{}
 	fmt.Printf("Searching Urban Dictionary for '%v'\n", term)
 	url := fmt.Sprintf("%v?term=%v", apiURL, term)
@@ -32,7 +31,7 @@ func (api *API) GetDefinition(term string, configs *config.APIConfigs) {
 		fmt.Printf("Error: %v\n", err)
 	}
 	request.Header.Set("x-rapidapi-host", apiHost)
-	request.Header.Set("x-rapidapi-key", configs.Key)
+	request.Header.Set("x-rapidapi-key", apiKey)
 	res, err := api.Client.Do(request)
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
