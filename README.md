@@ -2,7 +2,10 @@
 
 ## RapidAPI is a collection of API's that RapidAPI has.  I wanted to build a hub, and practice consuming multiple types, as well as having multiple endpoints.  I will provide documention for each collection.
 ---
-*_You will need to visit https://rapidapi.com/ to get your api key that you will need to store in your environment variables as "X_RAPIDAPI_KEY"_*
+
+_You will need to visit https://rapidapi.com/ to get your api key that you will need to store in your environment variables as "X_RAPIDAPI_KEY"_
+
+---
 
 
 1. Covid19
