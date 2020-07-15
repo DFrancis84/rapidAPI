@@ -27,7 +27,7 @@ func New() *API {
 
 func (api *API) GetCountByCountry(apiKey, country, countType, date string) {
 	var result covid19types.Count
-	fmt.Printf("Retrieving %v count for %v on %v\n", countType, country, date)
+	fmt.Printf("\nRetrieving %v count for %v on %v\n", countType, country, date)
 	url := fmt.Sprintf("%v/%v/country/%v/date/%v", apiURL, countType, country, date)
 	request, err := http.NewRequest("GET", url, nil)
 	if err != nil {

@@ -24,7 +24,7 @@ func New() *API {
 
 func (api *API) GetDefinition(term string, apiKey string) {
 	result := dictionarytypes.Result{}
-	fmt.Printf("Searching Urban Dictionary for '%v'\n", term)
+	fmt.Printf("\nSearching Urban Dictionary for '%v'\n", term)
 	url := fmt.Sprintf("%v?term=%v", apiURL, term)
 	request, err := http.NewRequest("GET", url, nil)
 	if err != nil {
