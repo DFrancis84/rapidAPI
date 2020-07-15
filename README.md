@@ -13,7 +13,7 @@
 ### The Covid19 collection takes in a country, date, and type; then returns the totals for the specified input.
 |term|input|required|
 |:--:|:---:|:------:|
-|country||yes|
+|country|[list of valid countries][covid19/validCountries.txt]|yes|
 |date|mm-dd-yyyy|yes|
 |type|confirmed, recovered, death|yes|
 
