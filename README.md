@@ -53,7 +53,7 @@ Example:
 
 Result:
 
-**WARNING: The results returned from UD CAN contain offensive or vulgar language.  Please use at your own risk**
+**WARNING: The results returned from urban dictionary _CAN_ contain offensive or vulgar language.  Please use at your own risk**
 
 ```
 Searching Urban Dictionary for 'slap'
