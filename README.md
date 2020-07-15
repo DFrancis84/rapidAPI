@@ -12,7 +12,7 @@
 ```
 
 ### The Covid19 collection takes in a country, date, and type; then returns the totals for the specified input.
-|term|input|required|
+|field|input|required|
 |:--:|:---:|:------:|
 |country|[list of valid countries](internal/covid19/validCountries.txt)|yes|
 |date|mm-dd-yyyy|yes|
@@ -39,7 +39,7 @@ On 07-14-2020; US declared 3431574 total CONFIRMED cases of Covid-19
 ```
 
 ### The UrbanDictionary collection takes in a term; then returns the dictionary specified by UD
-|term|input|required|
+|field|input|required|
 |:--:|:---:|:------:|
 |term|any word|yes|
 
